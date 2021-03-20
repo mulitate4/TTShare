@@ -14,10 +14,20 @@ body {
     color: white;
 }
 
+.infoDiv {
+    line-height: 5px;
+    font-size: 1rem;
+    margin: auto;
+    margin-top: 5vh;
+    width: 90vw;
+    text-align: center;
+    /* border: 1px solid red; */
+}
+
 .inputStrDiv {
     font-size: 1rem;
     margin: auto;
-    margin-top: 10vh;
+    margin-top: 5vh;
     width: 90vw;
     text-align: center;
     /* border: 3px solid red; */
@@ -91,3 +101,4 @@ body {
     padding: 5px;
     font-size: 13px;
 }
+
