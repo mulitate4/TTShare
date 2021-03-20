@@ -64,4 +64,3 @@ playButton.addEventListener('click', () => {
 copyButton.addEventListener('click', () => {
     main("copy");
 });
-
