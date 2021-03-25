@@ -1,6 +1,6 @@
 let inputStr = document.querySelector(".inputStr");
-let downloadButton = document.querySelector(".downloadButton");
 let playButton = document.querySelector(".playButton");
+let downloadButton = document.querySelector(".downloadButton");
 let copyButton = document.querySelector(".copyButton");
 let audio = document.querySelector(".TTS");
 let ID = "";
@@ -31,7 +31,7 @@ async function main(type="download"){
             downloadWindow.close()
         }, 1500);
 
-        copyButton.style.display = "block"
+        copyButton.style.display = ""
     }
     
     else if (type=="play"){
