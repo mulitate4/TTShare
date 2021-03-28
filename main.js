@@ -24,6 +24,7 @@ async function main(type="download"){
     }
     
     downloadURL = "http://13.229.216.148:8001/mp3s?tts_id="+ID;
+    shareURL = "http://127.0.0.1:5500/share.html?id=" + ID
     
     if (type=="download"){
         downloadWindow = window.open(downloadURL, "_blank")
@@ -44,7 +45,7 @@ async function main(type="download"){
     else if (type=="copy"){
         let dummyElem = document.createElement("textarea");
         document.body.appendChild(dummyElem);
-        dummyElem.value = downloadURL;
+        dummyElem.value = shareURL;
         dummyElem.select();
         document.execCommand("copy");
         document.body.removeChild(dummyElem)

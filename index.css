@@ -7,57 +7,17 @@ body {
 a {
     color: aqua;
 }
-a: :visited {
-    counter: aqua;
+a :visited {
+    color: aqua;
 }
 
-.titleDiv {
-    text-align: center;
-    font-size: 1.4rem;
-}
-
-.transparentHref {
-    text-decoration: none;
-    color: white;
-}
-
-.infoDiv {
-    line-height: 5px;
-    font-size: 1rem;
+.div {
+    width: 90vw;
     margin: auto;
     margin-top: 5vh;
-    width: 90vw;
     text-align: center;
-    /* border: 1px solid red; */
-}
-
-.inputStrDiv {
     font-size: 1rem;
-    margin: auto;
-    margin-top: 5vh;
-    width: 90vw;
-    text-align: center;
-    /* border: 3px solid red; */
 }
-
-.inputStr {
-    resize: none;
-    height: 15vh;
-    outline: none;
-    border: none;
-    width: 255px;
-    font-family: Comfortaa, cursive;
-}
-
-.buttonDiv {
-    font-size: 1rem;
-    margin: auto;
-    margin-top: 2vh;
-    width: 90vw;
-    text-align: center;
-    /* border: 3px solid red; */
-}
-
 
 .button {
     outline: none;
@@ -78,6 +38,48 @@ a: :visited {
             transition: all .4s ease-in-out;
 }
 
+.button:hover{
+    background: #fff;
+    color: #1f1f1f !important;
+}
+
+
+.titleDiv {
+    font-size: 1.4rem;
+}
+
+.transparentHref {
+    text-decoration: none;
+    color: white;
+}
+
+.infoDiv {
+    width: 40vw;
+    line-height: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+    .infoDiv {
+        line-height: 20px;
+        width: 90vw;
+    }
+  }
+
+
+
+.inputStr {
+    resize: none;
+    height: 15vh;
+    outline: none;
+    border: none;
+    width: 255px;
+    font-family: Comfortaa, cursive;
+}
+
+.buttonDiv {
+    margin-top: 2vh;
+}
+
 .downloadButton {
     margin-left: 3px;
     width: 130px;
@@ -89,18 +91,8 @@ a: :visited {
     padding: 5px;
 }
 
-.button:hover{
-    background: #fff;
-    color: #1f1f1f !important;
-}
-
-
 .shareDiv {
-    text-align: center;
-    margin: auto;
-    margin-top: 1vh;
-    width: 90vw;
-    /* border: 2px solid red; */
+    margin-top: 2vh;
 }
 
 .copyButton {
@@ -115,15 +107,11 @@ a: :visited {
     position: absolute;
     text-align: center;
     bottom: 0;
-    /* border: 2px solid red; */
 }
 
-.audioDiv {
-    width: 80vw;
-    margin: auto;
-    margin-top: 5vh;
-    text-align: center;
-}
+/* share.html styling */
+
+
 
 .downloadButtonLarge {
     width: 290px;
