@@ -1,0 +1,122 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: Comfortaa, cursive;
+}
+
+a {
+    color: aqua;
+}
+a :visited {
+    color: aqua;
+}
+
+.div {
+    width: 90vw;
+    margin: auto;
+    margin-top: 5vh;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.button {
+    outline: none;
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+    font-size: 14px;
+    font-family: Comfortaa, cursive;
+    text-transform: uppercase;
+    cursor: pointer;
+    height: 40px;
+    width: 130px;
+    padding: 5px;
+    -webkit-transition: all .4s ease-in-out;
+       -moz-transition: all .4s ease-in-out;
+        -ms-transition: all .4s ease-in-out;
+         -o-transition: all .4s ease-in-out;
+            transition: all .4s ease-in-out;
+}
+
+.button:hover{
+    background: #fff;
+    color: #1f1f1f !important;
+}
+
+
+.titleDiv {
+    font-size: 1.4rem;
+}
+
+.transparentHref {
+    text-decoration: none;
+    color: white;
+}
+
+.infoDiv {
+    width: 40vw;
+    line-height: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+    .infoDiv {
+        line-height: 20px;
+        width: 90vw;
+    }
+  }
+
+
+
+.inputStr {
+    resize: none;
+    height: 15vh;
+    outline: none;
+    border: none;
+    width: 255px;
+    font-family: Comfortaa, cursive;
+}
+
+.buttonDiv {
+    margin-top: 2vh;
+}
+
+.downloadButton {
+    margin-left: 3px;
+    width: 130px;
+    padding: 0px 5px;
+}
+
+.playButton {
+    width: 120px;
+    padding: 5px;
+}
+
+.shareDiv {
+    margin-top: 2vh;
+}
+
+.copyButton {
+    width: 258px;
+    padding: 5px;
+    font-size: 13px;
+}
+
+.footerDiv {
+    width: 80vw;
+    margin-left: 10vw;
+    position: absolute;
+    text-align: center;
+    bottom: 0;
+}
+
+/* share.html styling */
+
+
+
+.downloadButtonLarge {
+    width: 290px;
+}
+
+.copyButtonLarge {
+    width: 290px;
+}
